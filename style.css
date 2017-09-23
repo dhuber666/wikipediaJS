@@ -34,8 +34,9 @@ body {
 }
 
 #wikiSearch {
-    border-radius: 10px;
-    padding: 3px;
+    border-radius: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     padding-left: 20px;
     padding-right: 10px;
     box-shadow: none;
@@ -43,7 +44,8 @@ body {
     background: white;
     border: 2px solid black;
     color: black;
-    font-size: 18px;
+    font-size: 15px;
+    font-family: Arial;
  
 }
 
@@ -58,4 +60,9 @@ body {
     background: none;
     font-size: 150%;
     margin-left: 20px;
+    transition: 0.3s all;
+}
+
+#searchBtn:hover {
+    transform: scale(1.4);
 }
