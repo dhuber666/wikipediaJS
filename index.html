@@ -34,16 +34,23 @@
     <div class="container">
         <div class="search">
             <h1>Search Wikipedia</h1>
-            <form action="#" method="get" id="form">
-                <input type="search" name="search" id="wikiSearch">
+            <div id="form">
+                <input type="search" name="search" id="wikiSearch" onkeydown="search(this)">
                 <button id="searchBtn" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
-            </form>
+            </div>
         </div>
 
         <!-- What should happen when the search button gets pressed? -->
         <!-- Change the position of .search div to top 20px and transform it on top smoothly -->
         <!-- Add a second div which contains all the found articles and style it -->
-
+        
+        
     </div>
+
+        
+    <div id="display-result">
+        <!-- TODO: I'm not satisfied with the natural flow of that div -->
+    </div>
+
 </body>
 </html>

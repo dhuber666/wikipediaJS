@@ -15,13 +15,11 @@ body {
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: -20%;
+    top: 30%;
     right: 0;
     bottom: 0;
     left: 0;
-    
-
-    
+    max-height: 150px;
 }
 
 .search {
@@ -30,8 +28,14 @@ body {
     
 }
 
+#display-result {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    left: 0;
 
-
+}
 
 #form {
     margin-top: 20px;
